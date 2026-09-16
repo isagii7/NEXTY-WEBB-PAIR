@@ -1,12 +1,34 @@
+/**
+ * 👑 NEXTY MINI — Settings
+ * ─────────────────────────
+ * Sab configuration yahan hai.
+ */
+
 module.exports = {
+    // ═══ Owner Info ═══
+    ownerName: 'NEXTY',                    // ← Ye change karo
+    ownerNumber: '923XXXXXXXXX',           // ← Apna number daalo (country code +, no spaces)
+    
+    // ═══ Bot Info ═══
+    botName: 'NEXTY MINI',
+    version: '3.0.0',
+    prefix: '.',
+    
+    // ═══ Images ═══
     startimage: 'https://files.catbox.moe/o0798k.png',
-    ownerNumber: process.env.OWNER_NUMBER || '92372588634',
-    botName: 'SYED MINI BOT',
-    ownerName: 'SYED',
-    whatsappChannel: 'https://whatsapp.com/channel/0029VbDEriB30LKRn6gniN3U',
-    tgOwnerId: process.env.OWNER_TELEGRAM_ID || '848808151',
+    
+    // ═══ Channels ═══
+    whatsappChannel: 'https://whatsapp.com/channel/0029Vb8RIvDHVvTgHqEiRY1N',
+    
+    // ═══ Telegram ═══
+    tgOwnerId: 'YOUR_TELEGRAM_ID',
+    
+    // ═══ Users ═══
     premiumUsers: [],
     connectedBots: [],
-    version: '3.0.0',
-    prefix: '.'
+    
+    // ═══ Auto Features ═══
+    autoStatus: false,
+    autoRead: false,
+    autoReact: false
 };
