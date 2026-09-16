@@ -1,14 +1,14 @@
 {
-  "name": "syed-mini-bot",
+  "name": "nexty-mini-bot",
   "version": "3.0.0",
-  "description": "SYED MINI BOT - Ultimate WhatsApp Automation Tool with 120+ Commands",
+  "description": "NEXTY MINI BOT - Ultimate WhatsApp Automation Tool with 120+ Commands",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^7.0.0-rc10",
+    "@whiskeysockets/baileys": "^7.0.0-rc13",
     "axios": "^1.6.0",
     "cheerio": "^1.2.0",
     "dotenv": "^16.6.1",
@@ -33,15 +33,16 @@
     "nodemon": "^3.0.1"
   },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0"
   },
   "keywords": [
     "whatsapp-bot",
     "baileys",
-    "syed-md",
+    "nexty-md",
     "whatsapp-automation",
     "bot"
   ],
-  "author": "SYED",
+  "author": "NEXTY",
   "license": "MIT"
 }
